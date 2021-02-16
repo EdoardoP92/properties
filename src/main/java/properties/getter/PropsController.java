@@ -16,6 +16,6 @@ public class PropsController {
 
 	@GetMapping
 	public String refresh() {
-		return props;
+		return this.props;
 	}
 }
